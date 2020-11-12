@@ -2,7 +2,8 @@ def radix_sort(to_be_sorted):
   maximum_value = max(to_be_sorted)
   max_exponent = len(str(maximum_value))
   being_sorted = to_be_sorted[:]
-
+#first this thingy takes the maximum value from the list of inputs
+#it takes the biggest and finds the number of inputs there
   for exponent in range(max_exponent):
     position = exponent + 1
     index = -position
